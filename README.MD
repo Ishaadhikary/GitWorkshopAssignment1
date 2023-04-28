@@ -28,8 +28,10 @@ Ways to find the difference between two commits:
 ## Que 3: Write difference between git add and git commit commands.
 #### Ans:
  - #### git add:
+ 
             git add is a command to add/update the files or directory from the working directory to the staging area.(staging area is a temporary area)
 - #### git commit:
+
             git commit is a command to add/update files from the staging area to local repositories. Files or directories cannot be committed without being added to the staging area. However we can used git commit -a command which stages and commits all the changes in a single line. After commiting the file or directory it is ready to be pushed in the remote repository.
 ## Que 4: How to unstage files?
 #### Ans: 
@@ -59,5 +61,6 @@ Command:
     
     It creates a new commit that undoes the changes made by the previous commit. This way, git history is not changed.
    -  #### reset: 
+    
     It undoes the changes made by the previous commit and resets the staging area. During this action, the git history is changed. It can be used to remove commits from the history.
  
