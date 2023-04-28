@@ -1,1 +1,1 @@
-This file contains instruction to use this project
+Assignment 1: Git 
