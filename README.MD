@@ -61,4 +61,6 @@ Command:
     It creates a new commit that undoes the changes made by the previous commit. This way, git history is not changed.
    -  #### reset:  
         It undoes the changes made by the previous commit and resets the staging area. During this action, the git history is changed. It can be used to remove commits from the history.
+
+## Que 7: 
  
