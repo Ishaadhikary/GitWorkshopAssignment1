@@ -62,5 +62,29 @@ Command:
    -  #### reset:  
         It undoes the changes made by the previous commit and resets the staging area. During this action, the git history is changed. It can be used to remove commits from the history.
 
-## Que 7: 
+## Que 7: Write the difference between fetch and pull command.
+#### Ans: 
+
+
+- #### fetch: 
+    It downloads new data from the remote repository, but it doesn't integrate new data into the working directory. It will not manipulate or destroy information. It is used to get a fresh view of what happens in a remote repository.
+- #### pull:
+    It downloads new data from the remote repository and directly integrates it into the working directory. During the pull command, merge conflict can occur during integration.     
+
+
+## Que 8: How to handle merge conflicts? 
+#### Ans:
+Merge conflict occurs when the same changes are made in the same branches simultaneously. 
+Steps to handle merge conflict:
+- #### Always use the pull command before pushing:
+    Doing this helps us integrate the updated data from the remote repository, and git will notify us if conflicts occur and are required to be resolved. 
+- #### Open conflict files in the code editor:
+    We need to look into the conflicts and look for conflict markers: 
+    - <<<<<<<<
+    - =======
+    - >>>>>>>>
+    These markers show where the conflicts are occurring.
+- Edit the files to resolve the conflict:
+    We need to make the necessary changes to merge the conflicting changes
+- Save the file after the conflict is solved.
  
